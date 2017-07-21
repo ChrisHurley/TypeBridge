@@ -1,4 +1,7 @@
-﻿using TypeBridge.Sdk;
+﻿using System.Runtime.CompilerServices;
+using TypeBridge.Sdk;
+
+[assembly: InternalsVisibleTo("TypeBridge.Input.DotNetDll.Tests")]
 
 namespace TypeBridge.Input.DotNetDll
 {
