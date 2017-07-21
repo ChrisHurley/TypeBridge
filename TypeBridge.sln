@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBridge.Core", "TypeBrid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBridge.Sdk", "TypeBridge.Sdk\TypeBridge.Sdk.csproj", "{38A7713B-91DE-4A44-8F97-5384918770B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{0378C842-7320-4C35-9283-5CA450F3B10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBridge.Input.DotNetDll", "TypeBridge.Input.DotNetDll\TypeBridge.Input.DotNetDll.csproj", "{1E961F47-48E6-477C-B373-B7E4B725DE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{38A7713B-91DE-4A44-8F97-5384918770B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A7713B-91DE-4A44-8F97-5384918770B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A7713B-91DE-4A44-8F97-5384918770B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E961F47-48E6-477C-B373-B7E4B725DE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E961F47-48E6-477C-B373-B7E4B725DE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E961F47-48E6-477C-B373-B7E4B725DE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E961F47-48E6-477C-B373-B7E4B725DE7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E961F47-48E6-477C-B373-B7E4B725DE7B} = {0378C842-7320-4C35-9283-5CA450F3B10E}
 	EndGlobalSection
 EndGlobal
