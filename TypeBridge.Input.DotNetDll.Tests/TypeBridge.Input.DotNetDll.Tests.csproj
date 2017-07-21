@@ -5,11 +5,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Source\TestClass.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Source\TestClass.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="2.3.1" />
     <PackageReference Include="NUnit" Version="3.7.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TypeBridge.Input.DotNetDll\TypeBridge.Input.DotNetDll.csproj" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
 
 </Project>
