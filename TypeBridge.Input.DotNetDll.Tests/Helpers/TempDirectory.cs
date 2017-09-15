@@ -3,6 +3,7 @@ using System.IO;
 
 namespace TypeBridge.Input.DotNetDll.Tests.Helpers
 {
+    [Serializable]
     public class TempDirectory : IDisposable
     {
         public string FolderPath { get; }
